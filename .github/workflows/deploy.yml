@@ -26,6 +26,9 @@ jobs:
         
       - name: Copy Html
         run: cp -a dist/index.html dist/404.html
+
+      - name: Create CNAME file
+        run: echo "slvdieselpowersystem11.com" > dist/CNAME
         
       - name: Deploy
         if: success()
