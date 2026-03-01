@@ -12,6 +12,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
+  base: '/slv/',
   build:{
     chunkSizeWarningLimit: 2000,
   },
