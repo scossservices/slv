@@ -108,7 +108,7 @@ const HeroSection = () => {
                 Get a Quote
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+919876543202"
                 className="border border-border text-foreground px-8 py-3.5 rounded-lg font-semibold text-lg hover:bg-secondary transition-colors"
               >
                 📞 Call Now
