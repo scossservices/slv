@@ -4,7 +4,7 @@ import { useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 
-const WHATSAPP_NUMBER = "918296331201";
+const WHATSAPP_NUMBER = "918296331202";
 const WHATSAPP_NUMBER_2 = "918495842429";
 const BUSINESS_EMAIL = "slvdieselpowersystem2018@gmail.com";
 const PHONE_1 = "+918296331201";
@@ -22,7 +22,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    detail: "+91 8296331201 / +91 8495842429",
+    detail: "+91 8296331202 / +91 8495842429",
     href: `tel:${PHONE_1}`,
     label: "Call Us",
   },
